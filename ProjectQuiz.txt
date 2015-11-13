@@ -1,7 +1,7 @@
 ************************************************************************
 Project Name:  Recipe Display Application  --  Project Quiz
-Author: 
-Date:   
+Author: Blair Telepman
+Date:  11/11/2015 
 Participation Assignment (25 points)
 ************************************************************************
 
@@ -13,6 +13,7 @@ Question #1:  (5 points)
 ++++++++++++
 Why should you ensure that the script element that links to the jQuery library file comes before any other script element for a .js file that includes jQuery code?
 
+The script element must point to a copy of jQuery, and store the .js file in the same directory at your HTML file. 
 
 
 
@@ -21,8 +22,7 @@ Question #2:  (5 points)
 ++++++++++++
 Why should you avoid including jQuery in a project if you don't need it?
 
-
-
+They have their own wrapper object, which means they have completely different methods. 
 
 
 
@@ -31,7 +31,7 @@ Question #3:  (5 points)
 ++++++++++++
 How does every jQuery statement start?
 
-
+Every jQuery statement begins with the symbol $. The $ symbol establishes that any code that follows $ should be interpreted using jQuery. 
 
 
 
@@ -39,3 +39,10 @@ How does every jQuery statement start?
 Question #4: (10 points)
 ++++++++++++
 What is a Content Delivery Network (CDN)?  List and explain at least FOUR advantages in using a CDN.
+
+A Content Delivery Network (CDN) is a network where rather than hosting your website on a single server, you are able to distribute the files and load them across multiple systems. 
+
+1. Different Domains: most browsers limit the amount of file downloads to single domain, but CDN allows its users to download as much as four files at the same time. 
+2. Distributed data centers: Your web server could be located all across the world where you would have to make a number of trans-continental electronic hops when they access your files. However, CDN provide local data centers, not matter where your location is, which results in faster downloads. 
+3. Built-in version control:A CDN allows you to request the latest version of a CSS file or JavaScript if required. 
+4. Boots performance and saves money: A CDN can distribute the load, save bandwidth, boost performance and reduce your existing hosting costs, for free! 
